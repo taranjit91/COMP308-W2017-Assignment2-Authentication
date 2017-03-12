@@ -6,24 +6,28 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "body-parser": "~1.15.2",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.2.0",
-    "ejs": "~2.5.2",
-    "express": "~4.14.0",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.2.0",
+    "ejs": "*",
+    "express": "^4.14.1",
     "morgan": "~1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
     "serve-favicon": "~2.3.0"
   },
   "engines": {
     "node": ">=6.0.0",
     "npm": ">=3.5.0"
   },
-  "description": "## portfolio-300854507",
+  "description": "## authentication-300854507",
   "main": "server.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taranjit91/portfolio-300854507.git"
+    "url": "git+https://github.com/taranjit91/COMP308-W2017-Assignment2-Authentication"
   },
   "keywords": [
     "NodeJS",
@@ -33,7 +37,7 @@
   "author": "Taranjit Kaur",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/taranjit91/portfolio-300854507/issues"
+    "url": "https://github.com/taranjit91/COMP308-W2017-Assignment2-Authentication"
   },
-  "homepage": "https://github.com/taranjit91/portfolio-300854507#readme"
+  "homepage": "https://github.com/taranjit91/COMP308-W2017-Assignment2-Authentication#readme"
 }

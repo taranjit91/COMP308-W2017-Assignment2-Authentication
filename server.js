@@ -1,14 +1,6 @@
-#!/usr/bin/env node
-
-/**
- * Module dependencies.
- */
-
 let app = require('./app');
-let debug = require('debug')('create-express-portfolio:server');
+let debug = require('debug')('comp308-w2017-midterm:server');
 let http = require('http');
-
-
 
 /**
  * Get port from environment and store in Express.
