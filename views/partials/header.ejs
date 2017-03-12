@@ -1,0 +1,73 @@
+<!--
+Name: TARANJIT KAUR
+ID:	  300854507
+File Description: header file to be used on all the pages
+-->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>Express Portfolio - Taranjit Kaur</title>
+<link rel="stylesheet" href="/Content/app.css" type="text/css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+ <!--nav bar code -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	  <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+	  <span class="icon-bar"></span> </button>
+      
+    <a href="" class="navbar-brand "> <span class="hidden-xs">Portfolio</span> <span class="visible-xs"></span> </a> </div>
+   
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right" id="nav">
+         <% if(title == "Home") { %>
+            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact</a></li>
+        <% } else if(title == "About") {%>
+            <li><a href="/">Home</a></li>
+            <li class="active"><a href="/about">About</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact</a></li>
+       <% } else if(title == "Projects") {%>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li class="active"><a href="/projects">Projects</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact</a></li>
+        <% } else if(title == "Services") {%>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li class="active"><a href="/services">Services</a></li>
+            <li><a href="/contact">Contact</a></li>
+        <% } else if(title == "Contact") {%>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/services">Services</a></li>
+            <li class="active"><a href="/contact">Contact</a></li>
+        <% }%>
+        <!--For current active tab, I used code from your github repository. https://github.com/CentennialCollege/COMP308-W2017-Lesson4A/blob/master/views/partials/header.ejs-->
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+</nav>

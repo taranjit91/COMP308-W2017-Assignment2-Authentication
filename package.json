@@ -1,0 +1,39 @@
+{
+  "name": "portfolio-300854507",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.5.0"
+  },
+  "description": "## portfolio-300854507",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taranjit91/portfolio-300854507.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "EJS"
+  ],
+  "author": "Taranjit Kaur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taranjit91/portfolio-300854507/issues"
+  },
+  "homepage": "https://github.com/taranjit91/portfolio-300854507#readme"
+}

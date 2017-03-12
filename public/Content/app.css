@@ -1,0 +1,404 @@
+/* Custom CSS goes here */
+ .navbar-brand {
+    color: #000 !important;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: white !important;
+    background-color: #59c0db !important;
+}
+
+.navbar #nav > .active > a {
+    color: #59c0db !important;
+    
+}
+
+/*===========================================banner-section=================================*/
+.banner_section
+{
+	width:100%;
+	float:left;
+	background:url(../images/blue_background_1.jpg);
+	background-attachment:scroll;
+	background-size:cover;
+	position:relative;
+}
+.banner_img,
+.banner_text
+{
+	width:100%;
+	float:left;
+	
+	    margin: 50% 0;
+}
+.banner_img img {
+  float: right;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 6px;
+      width: 210px;
+    height: 210px;
+}
+
+.banner_text h1
+
+{
+	width:100%;
+	float:left;
+	color:#fff;
+	    font-weight: bold;
+    letter-spacing: 15px;
+position:relative;
+	
+}
+.banner_text h1:after
+
+{
+	content:'';
+	width:54%;
+	height:1px;
+	position:absolute;
+	background:#fff;
+    bottom: 0px;
+    left: 0px;
+    right: 23%;
+    margin: 0 auto;
+	
+	
+}
+.banner_text p
+
+{
+	width:100%;
+	float:left;
+	color:#fff;
+	    font-size: 46px;
+	 
+	
+}
+.banner_btn {
+   
+  
+	    padding-top: 7%;
+    float: left;
+    padding-left: 15%;
+}
+a.btn-default {
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 15px;
+}
+a.btn-default:hover {
+    text-decoration: none;
+    border: 1px solid #000;
+    background: transparent;
+    color: #fff;
+}
+
+/*===============================================about-section=====================================*/
+
+
+.about_section,
+.profile_section,
+.project_sec
+{
+	width:100%;
+	float:left;
+	    margin: 45px 0;
+	
+}
+.about_heading,
+.profile_heading,
+.project_heading,
+.contact_heading
+{
+	width:100%;
+	text-align:center;
+	color:#000;
+	letter-spacing:15px;
+	    padding: 30px 0;
+}
+span.about_image
+{
+	position:relative;
+	
+}
+i.fa.fa-user,
+i.fa.fa-book,
+i.fa.fa-tasks,
+i.fa.fa-comment
+ {
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+
+}
+span.about_image:after {
+      content: '';
+    width: 6%;
+    height: 2px;
+    position: absolute;
+    background: #000;
+    margin: 0 auto;
+    top: 8px;
+    right: 42%;
+}
+
+span.about_image:before {
+     content: '';
+    height: 2px;
+    position: absolute;
+    top: 8px;
+    bottom: 0px;
+    right: 0px;
+    background: #000;
+    width: 6%;
+    left: 41%;
+}
+.about_text
+{
+	width:100%;
+	float:left;
+}
+.about_text p
+{
+	color:#635f5f;
+	text-align:center;
+	width:100%;
+	line-height:32px;
+	font-size:17px;
+}
+
+
+/*======================================profile-section=======================================*/
+
+
+.profile_text
+{
+	width:100%;
+	float:left;
+	border:1px solid #000;
+	background:#5ebad3;
+	    border-right: none !important;
+    border-top-left-radius: 18px;
+	
+}
+.profile_text h3
+
+{
+	width:100%;
+	text-align:center;
+	font-size: 19px;
+    padding: 3px 0;
+	
+	
+}
+.profile_desc {
+    width: 100%;
+    float: left;
+    border: 1px solid #000;
+	border-bottom-right-radius: 18px;
+}
+
+.profile_desc h3
+
+{
+	width:100%;
+	text-align:center;
+	font-size: 19px;
+    padding: 3px 0;
+	
+	
+}
+.profile_less
+{
+     padding-right: 0px !important; 
+     padding-left: 0px !important; 
+	 
+}
+.profile_left
+{
+     padding-right: 0px !important; 
+	 margin-top: 35px;
+ 
+}
+.profile_right
+{
+    
+     padding-left: 0px !important; 
+	 margin-top: 35px;
+}
+.btm_1
+{
+	width:100%;
+	float:left;
+	padding-top:35px;
+}
+/*===================================project-section============================*/
+
+.project_border {
+    width: 100%;
+    float: left;
+    background: #ff9560;
+}
+.project_border {
+    width: 150px;
+    float: none;
+    background: #5ebad3;
+    border: 6px solid #127ea9;
+    border-radius: 50%;
+    height: 150px;
+    margin: 0 auto;
+}
+img.image_border {
+    width: 120px;
+    height: 120px;
+    float: none;
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+    /* border-radius: 50%; */
+}
+.project_text {
+    width: 100%;
+    text-align: center;
+}
+.project-cover {
+    width: 100%;
+    float: left;
+ padding-top:35px;
+}
+
+/*===================================contact-section============================*/
+.contact_section
+{
+	width:100%;
+	float:left;
+	/*margin:40px;*/
+	background:url(../images/blue_background_1.jpg);
+	    padding: 40px 0;
+	
+}
+.contact_heading
+{
+
+width:100%;
+float:left;
+	
+}
+.contact_text
+{
+	width:100%;
+	float:left;
+}
+.contact_text h4,
+.contact_text1 h4
+{
+
+width:100%;
+float:left;
+position:relative;
+    color: #000;
+    font-size: 23px;
+
+	
+}
+
+   
+    .contact_text h4:after {
+    content: '';
+    width: 40%;
+    height: 2px;
+    position: absolute;
+    background: #000;
+    margin: 0 auto;
+    left: 0px;
+    top: 35px;
+    /* right: 74%; */
+
+
+}
+
+
+
+
+
+   
+    .contact_text1 h4:after {
+    
+   content: '';
+    width: 22%;
+    height: 2px;
+    position: absolute;
+    background: #000;
+    margin: 0 auto;
+    left: 6px;
+    top: 43px;
+    /* right: 74%; */
+
+
+
+}
+.contact_text p {
+    width: 100%;
+    float: left;
+    padding: 28px 0;
+    /* text-align: center; */
+    color: #000;
+    font-size: 20px;
+    line-height: 38px;
+}
+.contact_number {
+    width: 100%;
+    float: left;
+    color: #000;
+}
+.contact_number p {
+    width: 100%;
+    float: left;
+    font-size: 25px;
+    line-height: 99px;
+}
+.contact_number h2 {
+    font-size: 25px;
+}
+.form_image {
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+}
+
+button.btn.btn-default.color {
+    border: 1px solid #000;
+    background: transparent;
+    color: #000;
+    padding: 11px 17%;
+    font-size: 20px;
+	    margin-top: 22px;
+}
+button.btn.btn-default.color:hover
+{
+	text-decoration:none;
+	border:1px solid #fff;
+	color:#fff;
+}
+/*===================================projects-page============================*/
+img.image_project_border {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+    /* border-radius: 50%; */
+}
+
+/*===============================footer==================*/
+footer {
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 10px;
+}
